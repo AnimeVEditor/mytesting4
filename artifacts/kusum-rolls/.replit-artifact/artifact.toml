@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Kusum Rolls – Flavours of Park Street"
+version = "1.0.0"
+id = "artifacts/kusum-rolls"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23670
+
+[services.development]
+run = "pnpm --filter @workspace/kusum-rolls run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/kusum-rolls", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/kusum-rolls/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23670"
+BASE_PATH = "/"

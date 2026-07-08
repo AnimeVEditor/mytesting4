@@ -1,0 +1,503 @@
+You are a Senior Full Stack Developer, Award-Winning UI/UX Designer, Brand Strategist, and CRO Expert.
+
+Your task is to build a COMPLETE production-ready premium restaurant website for:
+
+KUSUM ROLLS FLAVOURS OF PARK STREET
+
+This website is an unofficial concept created using publicly available information for demonstration purposes.
+
+The final result should be professional enough that the restaurant owner believes it was designed specifically for their business.
+
+=========================================================
+TECH STACK
+=========================================================
+
+Use
+
+• React + TypeScript
+• Vite
+• Tailwind CSS
+• Framer Motion
+• Lucide React Icons
+• shadcn/ui components
+• Responsive Design
+• React Router (if needed)
+• Clean component architecture
+
+Use reusable components.
+
+Never write everything inside one file.
+
+=========================================================
+PROJECT STRUCTURE
+=========================================================
+
+Create folders
+
+/components
+
+/pages
+
+/hooks
+
+/assets
+
+/data
+
+/styles
+
+/utils
+
+/public
+
+Organize code professionally.
+
+=========================================================
+BUSINESS DETAILS
+=========================================================
+
+Restaurant
+
+KUSUM ROLLS FLAVOURS OF PARK STREET
+
+Category
+
+Fast Food Restaurant
+
+Cuisine
+
+Kolkata Rolls
+Kathi Rolls
+Kebabs
+Quick Bites
+
+Rating
+
+4.4★
+
+Price
+
+₹1–200
+
+Phone
+
++91 79801 51647
+
+Address
+
+Q House
+350 Rajarhat Main Road
+
+Near Mio Amore Cake Shop
+
+Salua
+
+Kalipark
+
+Bablatala
+
+Kolkata
+
+West Bengal
+
+Google Maps
+
+https://www.google.com/maps/place/KUSUM+ROLLS+FLAVOURS+OF+PARK+STREET/@22.634274,88.4529524,16.67z/data=!4m6!3m5!1s0x39f89f30a23bd48f:0xe0bef3d7f9a31b7c!8m2!3d22.6343834!4d88.452417!16s%2Fg%2F11ynb_whpj
+
+=========================================================
+DESIGN DIRECTION
+=========================================================
+
+The website should feel
+
+Modern
+
+Energetic
+
+Premium
+
+Street Food
+
+Urban
+
+Fast
+
+Young
+
+Bold
+
+Inspired by
+
+Park Street food culture.
+
+DO NOT copy any existing website.
+
+Create a unique design.
+
+=========================================================
+COLOR PALETTE
+=========================================================
+
+Black
+
+Charcoal
+
+Mustard Yellow
+
+Orange
+
+Deep Red
+
+White
+
+Gold Accent
+
+=========================================================
+TYPOGRAPHY
+=========================================================
+
+Heading
+
+Bebas Neue
+
+Body
+
+Poppins
+
+=========================================================
+NAVIGATION
+=========================================================
+
+Sticky Navbar
+
+Transparent initially
+
+Glass effect after scrolling
+
+Sections
+
+Home
+
+About
+
+Menu
+
+Gallery
+
+Reviews
+
+Location
+
+Contact
+
+=========================================================
+HERO SECTION
+=========================================================
+
+Create a cinematic full-screen hero.
+
+Large grilled Kolkata roll background.
+
+Smoke animation.
+
+Warm lighting.
+
+Headline
+
+"Kolkata's Favourite Roll Experience"
+
+Subheading
+
+Freshly Rolled
+
+Perfectly Grilled
+
+Packed with Authentic Flavour
+
+Buttons
+
+Explore Menu
+
+Call Now
+
+Order on WhatsApp
+
+Get Directions
+
+Animated review badge
+
+⭐⭐⭐⭐☆
+
+4.4 Rating
+
+=========================================================
+ABOUT
+=========================================================
+
+Write a professional story explaining the restaurant's focus on freshly prepared Kolkata rolls, quick service, and affordable prices using only publicly available information.
+
+=========================================================
+MENU
+=========================================================
+
+Beautiful menu cards.
+
+Categories
+
+Chicken Rolls
+
+Egg Rolls
+
+Veg Rolls
+
+Paneer Rolls
+
+Double Egg Rolls
+
+Chicken Kebabs
+
+Snacks
+
+Cold Drinks
+
+Cards should include
+
+Image
+
+Name
+
+Description
+
+Price
+
+Order Button
+
+Hover animation
+
+=========================================================
+FEATURES
+=========================================================
+
+Fresh Ingredients
+
+Authentic Taste
+
+Pocket Friendly
+
+Quick Service
+
+Takeaway
+
+Family Friendly
+
+=========================================================
+GALLERY
+=========================================================
+
+Responsive masonry gallery.
+
+Hover zoom.
+
+Lightbox preview.
+
+=========================================================
+REVIEWS
+=========================================================
+
+Elegant review slider.
+
+Display
+
+4.4★
+
+Use review themes such as taste, freshness, affordability, and quick service rather than inventing fake customer names.
+
+=========================================================
+GOOGLE MAPS
+=========================================================
+
+Embed Google Maps.
+
+Buttons
+
+Open Maps
+
+Get Directions
+
+=========================================================
+WHATSAPP
+=========================================================
+
+Floating WhatsApp Button
+
+Use
+
++91 79801 51647
+
+Message
+
+Hello Kusum Rolls,
+
+I visited your website and would like to place an order.
+
+=========================================================
+CALL
+=========================================================
+
+Floating Call Button
+
+tel:+917980151647
+
+=========================================================
+CONTACT
+=========================================================
+
+Display
+
+Phone
+
+Address
+
+Google Maps
+
+Opening Hours
+
+Everything clickable.
+
+=========================================================
+FOOTER
+=========================================================
+
+Quick Links
+
+Phone
+
+Google Maps
+
+Copyright
+
+Disclaimer
+
+"This is an unofficial concept website created using publicly available information for demonstration purposes only and is not officially affiliated with Kusum Rolls Flavours of Park Street."
+
+=========================================================
+ANIMATIONS
+=========================================================
+
+Framer Motion
+
+Page transitions
+
+Fade
+
+Slide
+
+Scale
+
+Hover lift
+
+Card glow
+
+Image zoom
+
+Animated counters
+
+Smooth scrolling
+
+Scroll reveal
+
+=========================================================
+RESPONSIVE
+=========================================================
+
+Desktop
+
+Tablet
+
+Mobile
+
+Perfect spacing
+
+No overflow
+
+=========================================================
+SEO
+=========================================================
+
+Restaurant Schema
+
+LocalBusiness Schema
+
+OpenGraph
+
+Twitter Cards
+
+Meta Description
+
+Structured Data
+
+Semantic HTML
+
+=========================================================
+ACCESSIBILITY
+=========================================================
+
+ARIA Labels
+
+Keyboard Navigation
+
+Screen Reader Support
+
+Color Contrast
+
+=========================================================
+PERFORMANCE
+=========================================================
+
+Lazy loading
+
+Optimized images
+
+Code splitting
+
+Fast loading
+
+Lighthouse score above 95
+
+=========================================================
+CODE QUALITY
+=========================================================
+
+TypeScript everywhere.
+
+Reusable components.
+
+No duplicated code.
+
+No placeholders.
+
+No TODO comments.
+
+Clean folder structure.
+
+=========================================================
+FINAL REQUIREMENT
+=========================================================
+
+Generate a COMPLETE production-ready application.
+
+Do not skip any section.
+
+Do not use lorem ipsum.
+
+Use realistic content based only on publicly available information.
+
+Every button must work.
+
+Google Maps must open correctly.
+
+WhatsApp must open correctly.
+
+Call button must work.
+
+The finished project should look like a ₹1,00,000 custom restaurant website built by a premium digital agency and be suitable for presenting to the owner of Kusum Rolls Flavours of Park Street.
